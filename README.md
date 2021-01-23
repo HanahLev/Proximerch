@@ -1,2 +1,2 @@
-# Proximerch
+# ProxiMerch
 MLH Hack Cambridge Project
