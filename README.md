@@ -1,2 +1,2 @@
 # Proximerch
-MLH Hack Cambridge Project
+# MLH Hack Cambridge Project
