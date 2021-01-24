@@ -3,14 +3,25 @@
 
 <head>
 
-  <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/mystyle.css') }}">
+    <title>ProxiMerch Home</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/mystyle.css') }}">
+    <script src="https://kit.fontawesome.com/4b9ba14b0f.js" crossorigin="anonymous"></script>
+
+    <!--
+    
+    <link rel="stylesheet" type="text/css" href='C:\All My Data\College Data\Hackathons\2021\HexCambridge\Proximerch\Proximerch\static\styles\mystyle.css'>
+
+    -->
+
 
 </head>
 
 
 <body>
   <div class="homepage">
-    <h2 class="title"><u>ProxiMerch</u></h2>
+    <h1 class="title">PROXIMERCH</h1>
+    <img src="basket.PNG"><img src="basket.PNG"><img src="basket.PNG">
+    <p>So what would you like to buy today?</p>
     <form action="{{ url_for('main') }}" method="POST">
       <input type="text" id="search_name" name="search_name" placeholder="Enter a search word" required />
 
