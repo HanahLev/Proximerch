@@ -8,6 +8,3 @@ search_keyword = 'shoes'
 
 source_id = get_placeid(postcode)
 final_res_dict, final_sorted_res = order_shops_final(source_id, search_keyword, top_places[:20])
-
-print(final_sorted_res)
-print(final_res_dict)
